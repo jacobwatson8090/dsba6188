@@ -1,0 +1,40 @@
+﻿from google.colab import userdata
+from google.colab import drive
+!pip install chromadb tqdm fireworks-ai python-dotenv pandas
+!pip install sentence-transformers
+import fireworks.client
+import os
+import dotenv
+import chromadb
+import json
+from tqdm.auto import tqdm
+import pandas as pd
+import random
+from google.colab import userdata
+from chromadb import Documents, EmbeddingFunction, Embeddings
+from sentence_transformers import SentenceTransformer
+!pip install -U sentence-transformers
+import json
+from sentence_transformers import SentenceTransformer, CrossEncoder, util
+import time
+import gzip
+import os
+import torch
+!pip install datasets
+!pip install huggingface_hub
+!pip install huggingface-cli
+import time
+from sentence_transformers import SentenceTransformer, util
+from datasets import load_dataset
+!pip install -U sentence-transformers rank_bm25
+import json
+import gzip
+import os
+import torch
+from sentence_transformers import SentenceTransformer, CrossEncoder, util
+from rank_bm25 import BM25Okapi
+from sklearn.feature_extraction import _stop_words
+import string
+from tqdm.autonotebook import tqdm
+import numpy as np
+import numpy as np
